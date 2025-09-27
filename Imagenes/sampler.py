@@ -6,8 +6,8 @@ from pathlib import Path
 # ============ Configuración ============
 sanos_dir = Path("sanos")        # carpeta con imágenes sanas
 nosanos_dir = Path("nosanos")    # carpeta con imágenes no sanas
-output_dir = Path("sampled")     # carpeta de salida
-n_total = 250                    # número total de pares a elegir
+output_dir = Path("val")     # carpeta de salida
+n_total = 300                    # número total de pares a elegir
 # =======================================
 
 # 1) Encontrar los pares (imagen principal y su _ref)
